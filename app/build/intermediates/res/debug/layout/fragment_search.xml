@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:layout_marginTop="15sp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/editText5"
+                android:layout_below="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:shadowColor="#15cef1e7"
+                android:hint="Type to Search organizations" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView6"
+                android:textIsSelectable="true" />
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+
+</RelativeLayout><!-- From: file:/home/alpha/AndroidProjects/DisRes/app/src/main/res/layout/fragment_search.xml -->

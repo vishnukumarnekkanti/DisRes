@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:screenOrientation="portrait">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Earthquake"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:longClickable="false"
+            android:singleLine="false" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Flood"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="LandSlide"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Fire"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Tsunami"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Cyclone"
+            android:id="@+id/button6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"/>
+    </LinearLayout>
+</RelativeLayout>
